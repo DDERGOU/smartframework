@@ -23,4 +23,11 @@ public class StringUtil {
     public static boolean isNotEmpty(String str){
         return !isEmpty(str);
     }
+
+    /**
+     * 分割字符串
+     */
+    public static String[] splitString(String str, String separatoerChars){
+        return StringUtils.split(str, separatoerChars);
+    }
 }
